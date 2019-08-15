@@ -1,0 +1,40 @@
+@import "variables";
+:root {
+    @media (min-width: $breakpoint-mobile) {
+        --aside-width: 369px;
+        --aside-p-l: 49px;
+
+        --base-factor: 1;
+    }
+    @media (max-width: $breakpoint-mobile - 1) {
+        --aside-width: 100%;
+        --aside-p-l: 20px;
+
+        --base-factor: 2;
+    }
+    @media (min-height: 700px) {
+        --base-factor: 1.35;
+    }
+
+    --color--brand: #00E0A9;
+    --black: #000;
+    --color-blue: #0040ff;
+
+    --aside-p-r: 20px;
+    --aside-p-t: 18px;
+    --aside-p-b: 18px;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: "Mullet", Helvetica, Arial, sans-serif;
+}
+
+a {
+    color: var(--color-blue);
+}
+

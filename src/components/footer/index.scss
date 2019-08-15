@@ -1,0 +1,16 @@
+.b-footer {
+    font-size: calc(var(--base-factor) * 8px);
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: 0.08px;
+}
+
+.b-footer__row {
+    margin-bottom: 7px;
+}
+
+.b-footer__socials {
+    margin-top: 14px;
+}

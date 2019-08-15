@@ -1,0 +1,16 @@
+@import "../../assets/styles/mixins";
+
+.b-socials {}
+
+.b-socials__list {
+    @include reset-list;
+    display: flex;
+}
+
+.b-socials__item {
+    margin-right: 23px;
+}
+
+.b-socials__item-icon {
+    max-height: calc(var(--base-factor) * 13.3px);
+}
